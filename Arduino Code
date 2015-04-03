@@ -1,2 +1,18 @@
 #Arduino Code
 #testing 123
+class person{
+private:
+bool likes_poop;
+}
+
+int main()
+{
+  person Erin;
+  Erin.likes_poop = true;
+  if(Erin.likes_poop)
+    cout << "Erin likes poop, hahahaha";
+  else
+    cout << "Oh, she's normal. no worries";
+    
+    return 0;
+}
