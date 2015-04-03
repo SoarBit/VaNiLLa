@@ -1,7 +1,7 @@
 #Arduino Code
 #testing 123
 class person{
-private:
+public:
 bool likes_poop;
 }
 
